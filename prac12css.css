@@ -1,0 +1,311 @@
+#h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    border: solid white 2px;
+    background-color: rgba(255,255,255,0.5);
+}
+body{
+    background-color: rgb(162, 220, 220);
+}
+#i1{
+    max-width: 100%;
+    height: fit-content;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(logo\ wdt\ prac5.png);
+    background-size: 27.5% auto;
+    background-position: center;
+    background-size: repeat;
+    margin-top: 2px;
+    
+}
+#i2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+
+}
+/*button*/
+.i3{
+    padding: 8px;
+    align-self: right;
+    border-radius: 15px;
+}
+.i3:hover{
+    opacity: 1;
+    border:solid 2px ;
+    box-shadow: 0 0 5px 5px rgb(0,245,237) ;
+    text-shadow: 0 0 5px rgb(1, 252, 72);
+    font-size: 20px;
+}
+#i4{
+    font-size: 20px;
+}
+#i6{
+    color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    align-self: center;
+    align-content: center;
+    margin:auto;
+    padding: 25px;
+}
+#i5{
+    color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    align-self: center;
+    align-content: center;
+    margin:auto;
+    padding: 75px;
+}
+/*login sign up bg ethics*/
+#i7{
+    max-width: 100%;
+    height: fit-content;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(logo\ wdt\ prac5.png);
+    background-size: 27.5% auto;
+    background-position: center;
+    background-size: repeat;
+    margin-top: 2px;
+    padding: 100px;
+}
+ /*container grid boxes*/
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-gap:50px;
+    justify-content: center;
+    text-align: center;
+    padding: 75px;
+}
+.c3{
+    border: solid rgb(255, 255, 255) 10px;
+    border-radius: 20px;
+    border: solid rgb(0,245,237) 5px;
+    height: 300px;
+    color: rgb(1, 1, 1);
+    background-color: white;
+    opacity: 0.75;
+    font-size: 40px;
+    align-content: center;
+}
+.c3:hover{
+    opacity: 1;
+    color: white;
+    border:solid 5px ;
+    box-shadow: 0 0 15px 15px rgb(0,245,237) ;
+    text-shadow: 0 0 15px rgb(1, 252, 72);
+    font-size: 55px;
+}
+#a1:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(lifestyleimg.png);
+    background-position: center;
+}
+#a2:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(elecimg.jpeg);
+    background-position: center;
+}
+#a3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sportsimg.jpeg);
+    background-position: center;
+}
+#a4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(foodimg.jpeg);
+    background-position: center;
+}
+/*contact us section*/
+.footer{
+    max-width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.a7{
+    font-size: 22px;
+    margin: 15px; 
+}
+.a8{
+    font-size: 18px;
+    color: white;
+}
+.i9{
+    width: 50px;
+    height: 50px;
+}
+.i10{
+    width: 75px;
+    height: 50px;
+}
+.footer-section ul{
+    list-style: none;
+}
+.footer-section ul li{
+    display: flex;
+    align-items: center;
+}
+.footer-section ul li a{
+    text-decoration: none;
+}
+.footer-section ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.header{
+    max-width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+.header-section{
+   
+}
+.header-section ul{
+    list-style: none;
+}
+.header-section ul li{
+    display: flex;
+    align-items: center;
+}
+.header-section ul li a{
+    text-decoration: none;
+}
+.header-section ul li a p{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.header-section ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.e1{
+    text-align: center;
+    width: 175px;
+    height: 35px;
+    border: solid 2px white;
+    border-radius: 35px;
+    padding: 5px;
+}
+.i12{
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+}
+.button{
+    font-size: 25px;
+    width: 175px;
+    color: black;
+    height: 50px;
+    border-radius: 15px;
+    border: solid black 2px;
+    background-color: rgb(152, 243, 251);
+}
+.button1{
+    font-size: 20px;
+    width: 150px;
+    color: black;
+    height: 40px;
+    border-radius: 15px;
+    border: solid black 2px;
+    background-color: rgb(152, 243, 251);
+    margin-bottom: 5px;
+}
+.button1:hover{
+    font-size: 30px;
+    box-shadow: 0 0 5px 5px rgb(0,245,237) ;
+    text-shadow: 0 0 5px rgb(1, 252, 72);
+}
+.button:hover{
+    font-size: 35px;
+    box-shadow: 0 0 5px 5px rgb(0,245,237) ;
+    text-shadow: 0 0 5px rgb(1, 252, 72);
+}
+.i13{
+    width:83px ;
+    height: 83px;
+    float: left;
+    margin: 3px;
+}
+.i14{
+    float: right;
+    margin: 3px;
+    width:83px ;
+    height: 83px;
+}
+.container1{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px ;
+    grid-gap: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.c4{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    padding-top: 5px;
+}
+.l1{
+    max-width: 100%;
+    height: fit-content;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(logo\ wdt\ prac5.png);
+    background-size: 27.5% auto;
+    background-position: center;
+    background-size: repeat;
+    margin-top: 2px;
+    padding: 20px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+.i15{
+    font-size: 25px;
+}
+.z1{
+    border: solid rgb(255, 255, 255) 5px;
+    border-radius: 20px;
+    height: fit-content;
+    color: rgb(1, 1, 1);
+    background-color: rgb(145, 219, 224);
+    opacity: 0.9;
+    font-size: 40px;
+    align-content: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgb(145, 219, 224,0.55);
+    backdrop-filter: blur(10px); 
+}
+.z1:hover{
+    box-shadow: 0 0 15px 15px rgb(0,245,237) ;
+}
