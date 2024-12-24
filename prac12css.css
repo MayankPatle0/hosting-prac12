@@ -103,9 +103,9 @@ a{
     border-radius: 20px;
     border: solid rgb(0,245,237) 5px;
     height: 300px;
-    color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
     background-color: white;
-    opacity: 0.75;
+    opacity: 1;
     font-size: 40px;
     align-content: center;
 }
@@ -117,20 +117,35 @@ a{
     text-shadow: 0 0 15px rgb(1, 252, 72);
     font-size: 55px;
 }
-#a1:hover{
+#a1{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(lifestyleimg.png);
     background-position: center;
 }
-#a2:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(elecimg.jpeg);
+#a1:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(255, 255, 255,0.1)), url(lifestyleimg.png);
+    background-position: center;
+}
+#a2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(elecfinal.jpg);
+    background-position: center;
+}#a2:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(elecfinal.jpg);
+    background-position: center;
+}
+#a3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sportsfinal.jpg);
     background-position: center;
 }
 #a3:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sportsimg.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(sportsfinal.jpg);
+    background-position: center;
+}
+#a4{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(foodimg.jpeg);
     background-position: center;
 }
 #a4:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(foodimg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(foodimg.jpeg);
     background-position: center;
 }
 /*contact us section*/
@@ -152,6 +167,7 @@ a{
 .a8{
     font-size: 18px;
     color: white;
+    text-align: left;
 }
 .i9{
     width: 50px;
@@ -161,9 +177,12 @@ a{
     width: 75px;
     height: 50px;
 }
+.fotter-section{
+    text-align: left;
+}
 .footer-section ul{
     list-style: none;
-}
+    padding-left: 20px;}
 .footer-section ul li{
     display: flex;
     align-items: center;
