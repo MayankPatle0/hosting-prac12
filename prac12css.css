@@ -126,18 +126,18 @@ a{
     background-position: center;
 }
 #a2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(elecfinal.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(elecfinal.jpeg);
     background-position: center;
 }#a2:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(elecfinal.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(elecfinal.jpeg);
     background-position: center;
 }
 #a3{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sportsfinal.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Sporting-Equipment-1.jpg);
     background-position: center;
 }
 #a3:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(sportsfinal.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(Sporting-Equipment-1.jpg);
     background-position: center;
 }
 #a4{
