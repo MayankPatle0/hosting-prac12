@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> <link rel="stylesheet" href="prac12css.css">
+    <script>
+        // Initialize an empty cart
+        let cart = [];
+    
+        // Function to add item to cart
+        function addToCart(item, price) {
+            const cartItem = { name: item, price: price };
+            cart.push(cartItem);
+            alert(item + " has been added to the cart!");
+            displayCart(); // Show the updated cart after an item is added
+        }
+    
+        // Function to display the cart
+        function displayCart() {
+            let cartContents = "";
+            let totalPrice = 0;
+    
+            if (cart.length === 0) {
+                cartContents = "Your cart is empty.";
+            } else {
+                cart.forEach(item => {
+                    cartContents += item.name + " - Price: " + item.price + "<br>";
+                    totalPrice += item.price;
+                });
+                cartContents += "<hr>Total Price: " + totalPrice + " /-";
+            }
+    
+            // Display the cart in the console (or you could display it in an HTML element)
+            console.log(cartContents);
+            // For example, show cart content in a popup or a specific section in HTML
+            alert(cartContents);
+        }
+    </script>
 </head>
 <body>
     <img class="i13" src="final logo.jpg" alt=""><img class="i14" src="final logo.jpg" alt=""><p id="h1">ETHICS STORE</p>
@@ -32,14 +65,33 @@
     </div>
     <div class="l1">
     <div class="container1">
-        <div class="z1"> <img class="c4" src="smartwatch1.jpeg" alt=""><br>Smart Watch<br>
-            Price: 999/-<hr noshade="2px" color="black"><a href="buy now.htm"><button class="button1">Buy Now</button></a></div>
-         <div class="z1"> <img class="c4" src="neckband1.jpeg" alt=""><hr noshade="2px" color="black">Neck Band<hr noshade="2px" color="black">
-            Price: 999/-<hr noshade="2px" color="black"><a href="buy now.htm"><button class="button1">Buy Now</button></a></div>   
-         <div class="z1"> <img class="c4" src="lamp1.jpeg" alt=""><hr noshade="2px" color="black">Lamp<hr noshade="2px" color="black">
-            Price: 999/-<hr noshade="2px" color="black"><a href="buy now.htm"><button class="button1">Buy Now</button></a></div>               
-         <div class="z1"> <img class="c4" src="earbud1.jpeg" alt=""><hr noshade="2px" color="black">Earbuds<hr noshade="2px" color="black">
-            Price: 999/-<hr noshade="2px" color="black"><a href="buy now.htm"><button class="button1">Buy Now</button></a></div>
+        <div class="z1">
+            <img class="c4" src="smartwatch1.jpeg" alt=""><br>Smart Watch<br>
+            Price: 999/-<hr noshade="2px" color="black">
+            <a href="buy now.htm"><button class="button1">Buy Now</button></a>
+            <button class="button1" onclick="addToCart('Smart Watch', 999)">Add to Cart</button>
+        </div>
+        <div class="z1">
+            <img class="c4" src="neckband1.jpeg" alt=""><hr noshade="2px" color="black">
+            Neck Band<hr noshade="2px" color="black">
+            Price: 999/-<hr noshade="2px" color="black">
+            <a href="buy now.htm"><button class="button1">Buy Now</button></a>
+            <button class="button1" onclick="addToCart('Neck Band', 999)">Add to Cart</button>
+        </div>
+        <div class="z1">
+            <img class="c4" src="lamp1.jpeg" alt=""><hr noshade="2px" color="black">
+            Lamp<hr noshade="2px" color="black">
+            Price: 999/-<hr noshade="2px" color="black">
+            <a href="buy now.htm"><button class="button1">Buy Now</button></a>
+            <button class="button1" onclick="addToCart('Lamp', 999)">Add to Cart</button>
+        </div>
+        <div class="z1">
+            <img class="c4" src="earbud1.jpeg" alt=""><hr noshade="2px" color="black">
+            Earbuds<hr noshade="2px" color="black">
+            Price: 999/-<hr noshade="2px" color="black">
+            <a href="buy now.htm"><button class="button1">Buy Now</button></a>
+            <button class="button1" onclick="addToCart('Earbuds', 999)">Add to Cart</button>
+        </div>
     </div>
 </div>
     <div class="footer"> 
